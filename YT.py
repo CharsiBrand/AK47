@@ -857,7 +857,7 @@ class crack:
 						open('Ok.txt', 'a').write("Successful😁◨ %s ◊ %s ◊ %s %s %s ◊ %s \n"%(user,pw,day,month,year,coki))
 						break
 					except (KeyError, IOError):
-						day = 31''
+						day = 30''
 						month = 12''
 						year = 2022''
 					except:
